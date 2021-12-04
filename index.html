@@ -490,7 +490,7 @@
         </div>
       </div>
     </footer>
-
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-close" data-modal-close>
           <svg class="modal-close-icon">
@@ -566,7 +566,7 @@
             <input type="checkbox"
             name="policy"
             id="policy"
-            class="modal-check"
+            class="modal-check visually-hidden"
             />
             <label for="policy" class="check-text">
                <span class="check-item">
@@ -574,18 +574,20 @@
                 <use href="./images/icons/icons.svg#icon-vector"></use>
               </svg>
                </span>
-              Соглашаюсь с рассылкой и принимаю Условия договора
+              Соглашаюсь с рассылкой и принимаю&nbsp;   
+               <a href="" class="modal-check-link">Условия договора</a>
             </label>
             
           </div>
 
-          <button type="submit" class="modal-btn">
+          <button type="submit" class="modal-btn">  
             
               Отправить</button>
         </form>
       </div>
+      </div>
     </div> 
-     <!-- <script src="./js/modal.js"></script> -->
+     <script src="./js/modal.js"></script>
   </body>
 </html>
 is-hide
